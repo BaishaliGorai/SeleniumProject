@@ -22,7 +22,7 @@ public class AssetFilterModTC6 {
 		
 		String actLoginPageTitle = driver.findElement(By.linkText("vtiger")).getText();
 		
-		if(actLoginPageTitle.equals("vtiger"))
+		if(actLoginPageTitle.equals("vtiger."))
 		{
 			System.out.println("Login Page displayed.");
 		}
